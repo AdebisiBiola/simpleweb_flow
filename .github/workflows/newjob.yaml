@@ -9,3 +9,6 @@ jobs:
     steps:
      - name: "say hello world"
        run: echo "hello world...."
+
+     - name: "test project"
+       run: echo "how are you ???"
