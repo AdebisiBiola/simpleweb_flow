@@ -1,0 +1,11 @@
+name: hello flow
+on:
+  push:
+    branches:
+     - master
+jobs:
+  greetings:
+    runs-on: ubuntu-latest
+    steps:
+     - name: "say hello world"
+       run: echo "hello world...."
